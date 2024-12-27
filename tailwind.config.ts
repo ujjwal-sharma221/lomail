@@ -65,6 +65,7 @@ export default {
       },
       animation: {
         shine: "shine 3s ease-out infinite",
+        slow_spin: "spin 5s linear infinite",
       },
     },
   },
