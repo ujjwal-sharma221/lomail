@@ -1,4 +1,4 @@
-import { Timezone } from "@/components/timezone";
+import { Timezone } from "@/lib/timezone";
 
 const DashboardPage = () => {
   return (
