@@ -1,3 +1,4 @@
+import SelectTimezone from "@/components/comp-200";
 import { Timezone } from "@/lib/timezone";
 
 const DashboardPage = () => {
@@ -5,6 +6,7 @@ const DashboardPage = () => {
     <div>
       Dashboard Page
       <Timezone />
+      <SelectTimezone />
     </div>
   );
 };

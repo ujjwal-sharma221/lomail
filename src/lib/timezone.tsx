@@ -9,23 +9,10 @@ export function Timezone() {
     setTimezone(tz);
   });
 
-  const { difference, time1, time2, timeUntilEvent } = calTimezoneInfo({
-    timezone1: "Asia/Kolkata",
-    timezone2: "America/New_York",
-    eventHour: 22,
-  });
-
   return (
     <div>
       <h1>Your Timezone</h1>
       <p>{timezone || "Detecting timezone..."}</p>
-      <p>The time difference :{difference}</p>
-      <p>
-        Time in Asia/Kolkata: {time1}
-        Time in America/New_York: {time2}
-      </p>
-
-      <p>Time until event {timeUntilEvent}</p>
     </div>
   );
 }
