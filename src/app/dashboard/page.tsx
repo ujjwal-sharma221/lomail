@@ -1,13 +1,4 @@
-import SelectTimezone from "@/components/comp-200";
-import { Timezone } from "@/lib/timezone";
-
 const DashboardPage = () => {
-  return (
-    <div>
-      Dashboard Page
-      <Timezone />
-      <SelectTimezone />
-    </div>
-  );
+  return <div>Dashboard Page</div>;
 };
 export default DashboardPage;
